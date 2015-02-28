@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bay</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home_page">Home Page</string>
+    <string name="search_xbay">Search XBay</string>
+    <string name="all_categories">All Categories</string>
+    <string name="sub_categories">Sub Categories</string>
+    <string name="my_account">My account</string>
+    <string name="cart">Cart</string>
+    <string name="login">Sign In</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="re_pass">Re_enter Password</string>
+    <string name="button_register">Register</string>
+    <string name="show_password">Show Password</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="category_view">Products</string>
+    <string name="product_desc">Product</string>
+    <string name="decription">Samsung Galaxy S4</string>
+    <string name="price">US $ 400.00</string>
+    <string name="shipping">Shipping</string>
+    <string name="orders">40 Orders</string>
+    <string name="condition">Condition:</string>
+    <string name="country">Country</string>
+    <string name="item_description">Item Description:</string>
+    <string name="condition_state">New</string>
+    <string name="country_org">South Korea</string>
+    <string name="about_seller">About Seller</string>
+    <string name="returns">Returns</string>
+    <string name="payments">Payments</string>
+    <string name="shipping_statemant">Sign in to see shipping details</string>
+    <string name="returns_accepted">Returns Accepted</string>
+    <string name="payment_metod">PayPal</string>
+    <string name="positive">Positive</string>
+    <string name="neutral">Neutral</string>
+    <string name="negative">Negative</string>
+    <string name="ask_seller">Ask seller question</string>
+    <string name="location">Location</string>
+    <string name="ships_to">Ships to</string>
+    <string name="feedback_rating">Feedback Ratings</string>
+    <string name="refund">Refund</string>
+    <string name="policy">Policy</string>
+    <string name="guarantee">Guarantee</string>
+    <string name="shipping_info">Shipping Information</string>
+
+    <string-array name="navigation_drawer_items">
+        <item>Home</item>
+        <item>My XBay</item>
+        <item>Cart</item>
+        <item>Wish List</item>
+        <item>Feedback</item>
+        <item>Settings</item>
+        <item>Help</item>
+        <item>About Us</item>
+    </string-array>
+
+    <array name="navigatin_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_account</item>
+        <item>@drawable/ic_cart</item>
+        <item>@drawable/ic_wish</item>
+        <item>@drawable/ic_feedback</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_help</item>
+        <item>@drawable/ic_about</item>
+    </array>
+
+    <string-array name="categories">
+        <item>Apparel and Accessories</item>
+        <item>Electronics</item>
+        <item>Cars and Motorcylces</item>
+        <item>Beauty and Health</item>
+        <item>Jewelery</item>
+        <item>Watches</item>
+        <item>Shoes</item>
+        <item>Luggage and Bags</item>
+        <item>Sports and Entertainment</item>
+        <item>Home and Garden</item>
+        <item>Lights and Lightning</item>
+        <item>Baby Products</item>
+        <item>Electrical Equipment and Supplies</item>
+        <item>Electronic Components and Supplies</item>
+        <item>Food</item>
+        <item>Furniture</item>
+        <item>Home Appliances</item>
+        <item>Home Improvment</item>
+        <item>Industry and Business</item>
+        <item>Office and School Supplies</item>
+        <item>Toys and Hobbies</item>
+    </string-array>
+    <string-array name="sub_categories">
+        <item>Mobile Phones</item>
+        <item>Tablet PCs</item>
+        <item>Accessories and Parts</item>
+        <item>Electronic Cigarettes</item>
+        <item>Mini PCs</item>
+        <item>Camera and Photo</item>
+        <item>Computer Components</item>
+        <item>Home Audio and Video</item>
+        <item>Video Games</item>
+        <item>Laptops</item>
+        <item>Desktops and Servers</item>
+        <item>Storage and Networking</item>
+        <item>Commercial Electronics</item>
+    </string-array>
+
+    <string name="title_activity_my_xbay">MyXbay</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_cart">Cart</string>
+
+</resources>

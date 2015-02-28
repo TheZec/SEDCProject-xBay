@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">XBayUIPrototype</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Home</string>
+    <string name="search">Search XBay</string>
+    <string name="title_activity_categories">Categories</string>
+    <string name="title_activity_account">Account</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="title_activity_todays_best">TodaysBest</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_product_sample">ProductSample</string>
+    <string name="product_description">Place for the product description, price, seller, etc.</string>
+    <string name="txt_actionbar">Setting Action Bar \n Adding Action Buttons \n Styling Action Bar</string>
+    <string name="categories">Categories</string>
+    <string name="account">Account</string>
+    <string name="cart">Cart</string>
+    <string name="todays_best">Todays Best</string>
+
+
+    <string-array name="kategorii">
+        <item>Electronics</item>
+        <item>Fashion</item>
+        <item>Entertainment</item>
+        <item>Motors</item>
+        <item>Home and Garden</item>
+        <item>Sport</item>
+        <item>Toys</item>
+        <item>Hobies</item>
+        <item>Collectibles and art</item>
+        <item>Other categories</item>
+    </string-array>
+
+</resources>

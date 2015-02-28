@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/home_page_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="sptest.zec.com.xbay.Activities.HomePage">
+
+    <SearchView
+        android:id="@+id/searchViewHomePage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:focusable="false"
+        android:iconifiedByDefault="false"
+        android:queryHint="@string/search_xbay" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/searchViewHomePage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:id="@+id/horizontalScrollLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/scrolview_margin"
+                android:layout_marginLeft="@dimen/scrolview_margin"
+                android:layout_marginTop="@dimen/scrolview_margin"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/productsample"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/scrolview_margin"
+                android:layout_marginLeft="@dimen/scrolview_margin"
+                android:layout_marginTop="@dimen/scrolview_margin"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/productsampletwo" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/scrolview_margin"
+                android:layout_marginLeft="@dimen/scrolview_margin"
+                android:layout_marginTop="@dimen/scrolview_margin"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/productsamplethree" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/scrolview_margin"
+                android:layout_marginRight="@dimen/scrolview_margin"
+                android:layout_marginTop="@dimen/scrolview_margin"
+                android:background="@color/white"
+                android:drawableLeft="@drawable/productsamplefour" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <Button
+        android:id="@+id/button_all_categories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/horizontalScrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:background="@color/background_blue"
+        android:drawableRight="@drawable/ic_action"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/scrolview_margin"
+        android:text="@string/all_categories" />
+
+    <Button
+        android:id="@+id/button_my_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_all_categories"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/scrolview_margin"
+        android:background="@color/background_blue"
+        android:drawableRight="@drawable/ic_action"
+        android:gravity="left|center"
+        android:paddingLeft="@dimen/scrolview_margin"
+        android:text="@string/my_account" />
+
+    <Button
+        android:id="@+id/button_cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_my_account"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/scrolview_margin"
+        android:background="@color/background_blue"
+        android:drawableRight="@drawable/ic_action"
+        android:gravity="left|center"
+        android:text="@string/cart"
+        android:paddingLeft="@dimen/scrolview_margin"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/button_cart"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/special_sample"
+        android:layout_marginTop="@dimen/scrolview_margin"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Aleksandar\Desktop\development\android\projects\XBayUIPrototype\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a92bb315cc0c4f86c98ecb92b392383cae14a474.jar"
+        jar="C:\Users\Aleksandar\Zec\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="C:\Users\Aleksandar\Desktop\development\android\projects\XBayUIPrototype\app\build\intermediates\pre-dexed\debug\classes-286e00c20735f2bdc78340ee2a3eefdd6469381a.jar"
+        jar="C:\Users\Aleksandar\Desktop\development\android\projects\XBayUIPrototype\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="C:\Users\Aleksandar\Desktop\development\android\projects\XBayUIPrototype\app\build\intermediates\pre-dexed\debug\butterknife-5.1.1-87fce5599b1a94128c81cc974da4aaaee5841848.jar"
+        jar="C:\Users\Aleksandar\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\5.1.1\b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8\butterknife-5.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b3652dfd65ca0bcf18790ff1a1f7624af4cb2bb8"/>
+
+</pre-dex-items>
